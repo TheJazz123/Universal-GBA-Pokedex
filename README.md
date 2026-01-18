@@ -1,8 +1,19 @@
 # Universal GBA Pokedex
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/379517a8-f88f-447b-8f25-b9dff2c3eb03" width="600" alt="Universal Pokedex Screenshot">
+  <img src="https://github.com/user-attachments/assets/9c1a8bda-12fb-455f-b8e4-ae017142a930" width="800" alt="Main Interface Dark Mode">
+  <br>
+  <em>Modern Dark Mode Interface with Syntax Highlighting</em>
 </p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fd59a5d1-ceb9-4de2-b638-b07d197a2429" width="400" alt="Recursive Evolution Tree">
+  <img src="https://github.com/user-attachments/assets/994e410d-b12a-45d3-8af3-47a6e62060f4" width="400" alt="Item Detection">
+  <br>
+  <em>Left: Recursive Evolution Trees (Eevee) | Right: Automatic Item Name Detection</em>
+</p>
+
+
 
 
 A heuristic-based ROM analysis tool designed to extract and visualize Pokémon evolution data from Game Boy Advance ROMs.
@@ -11,10 +22,13 @@ Unlike traditional editors that rely on hardcoded memory offsets for specific ga
 
 ## Key Features
 
-* **Dynamic Offset Detection:** Uses pattern matching to locate internal data structures, making it compatible with FireRed, LeafGreen, Emerald, and modified engines (e.g., CFRU).
-* **Recursive Evolution Mapping:** Generates complete evolution trees (e.g., Charmander → Charmeleon → Charizard) rather than single-step data.
-* **Data Integrity Filtering:** Implements consistency checks to filter out "Bad Egg" data, empty slots, and memory garbage often found in expanded ROMs.
-* **Fuzzy Search & Normalization:** Handles character encoding differences and special formatting (e.g., "Mr. Mime" vs "Mr Mime") automatically.
+## Key Features
+
+* **Universal Compatibility:** Automatically detects data offsets for FireRed, Emerald, and many ROM Hacks.
+* **Recursive Evolution Engine:** Visualizes the entire evolutionary lineage (e.g., Bulbasaur → Ivysaur → Venusaur) in a single view.
+* **Heuristic Item Scanner:** Uses structure-based pattern matching to detect Item Tables even in heavily modified game engines.
+* **Modern Dark UI:** Features a professional, VS Code-inspired interface with resizable panels and syntax highlighting.
+* **Gap Logic:** Intelligent handling of empty data slots to prevent offset shifting in expanded Pokedexes.
 
 ## Verified Compatibility
 

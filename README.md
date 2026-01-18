@@ -1,6 +1,9 @@
 # Universal GBA Pokedex
 
-<img width="869" height="780" alt="image" src="https://github.com/user-attachments/assets/379517a8-f88f-447b-8f25-b9dff2c3eb03" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/379517a8-f88f-447b-8f25-b9dff2c3eb03" width="600" alt="Universal Pokedex Screenshot">
+</p>
+
 
 A heuristic-based ROM analysis tool designed to extract and visualize Pokémon evolution data from Game Boy Advance ROMs.
 

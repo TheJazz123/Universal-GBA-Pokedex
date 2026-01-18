@@ -1,5 +1,7 @@
 # Universal GBA Pokedex
 
+<img width="869" height="780" alt="image" src="https://github.com/user-attachments/assets/379517a8-f88f-447b-8f25-b9dff2c3eb03" />
+
 A heuristic-based ROM analysis tool designed to extract and visualize Pokémon evolution data from Game Boy Advance ROMs.
 
 Unlike traditional editors that rely on hardcoded memory offsets for specific game versions, this tool utilizes a byte-signature scanning algorithm. This allows it to dynamically locate data tables (Names, Evolutions, and Items) across different regions, versions, and extensive ROM hacks without manual configuration.

@@ -1,0 +1,20 @@
+# Ignore Game ROMs (CRITICAL)
+*.gba
+*.gbc
+*.sav
+*.sgm
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore VS Code settings & temp files
+.vscode/
+TempCodeRunnerFile.py
+tempCodeRunnerFile.py
+
+# Ignore Executables
+*.exe
+build/
+dist/
+*.spec

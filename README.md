@@ -65,3 +65,8 @@ This project is a research tool intended for educational purposes only.
 * **No ROMs Included:** This repository does not contain any game files, ROM images, or copyrighted assets.
 * **Affiliation:** This project is not affiliated with, endorsed by, or connected to Nintendo, Game Freak, or The Pokémon Company in any way.
 * **Usage:** Users are responsible for ensuring they possess the legal right to modify and analyze their own game backups in accordance with their local laws.
+
+## Acknowledgments
+
+* **Hex Maniac Advance:** An essential tool used to verify memory offsets and validate the scanner's results.
+* **The ROM Hacking Community:** For years of documentation on the Game Boy Advance data structures that made this tool possible.

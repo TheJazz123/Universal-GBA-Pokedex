@@ -20,7 +20,6 @@ A heuristic-based ROM analysis tool designed to extract and visualize Pokémon e
 
 Unlike traditional editors that rely on hardcoded memory offsets for specific game versions, this tool utilizes a byte-signature scanning algorithm. This allows it to dynamically locate data tables (Names, Evolutions, and Items) across different regions, versions, and extensive ROM hacks without manual configuration.
 
-## Key Features
 
 ## Key Features
 
